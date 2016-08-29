@@ -58,17 +58,18 @@ namespace Grundforlobsprove
         *A function to convert a binary number to decimal.
         *
         *Inputs:
-        *   input: A string 
+        *   input: A string that makes up the binary number
         *    
         *
         *Output:
+        *   deci.Sum(): A 32 bit integer, that is made from the sum of
+        *       the individuel converted bits.
         *    
         *************************************************************/
         private int bitToDec(string input)
         {
-            int[] binary = new int[input.Length];
             int start = 0;
-            int[] deci = new int[8];
+            int[] deci = new int[input.Length];
             for (int i = input.Length-1; i>-1; i--)
             {
                 start = (int)Math.Pow(2, i);
@@ -79,6 +80,16 @@ namespace Grundforlobsprove
             return deci.Sum();
         }
 
+        /**************************************************************
+        *A function that converts decimal numbesr into binary
+        *
+        *Inputs:
+        *    x: A 32 bit integer, representing the number that needs
+        *       conversion.
+        *
+        *Output:
+        *    final: A string of the converted decimal number in bit
+        *************************************************************/
         private string decToBit(int x)
         {
             int y = 0;
@@ -105,6 +116,16 @@ namespace Grundforlobsprove
             }
             return final;
         }
+        
+        /*
+        *
+        *
+        *
+        * TAB 1
+        *
+        *
+        *
+        */
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -379,6 +400,25 @@ namespace Grundforlobsprove
             broadAddShow.Text = "";
             subMaskShow.Text = "";
             useAddShow.Text = "";
+        }
+        
+        /*
+        *
+        *
+        *
+        * TAB 2
+        *
+        *
+        *
+        */
+
+        private void tab2Calculate_Click(object sender, EventArgs e)
+        {
+            int number = 1;
+            for (int i = 0; i < Convert.ToInt32( useAddToFind.Text); i++)
+            {
+
+            }
         }
     }
 }
