@@ -7,3 +7,12 @@ C:\Users\kris537u\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforl
 C:\Users\kris537u\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.csproj.GenerateResource.Cache
 C:\Users\kris537u\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.exe
 C:\Users\kris537u\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.pdb
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\bin\Debug\Grundforlobsprove.exe.config
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.exe
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.pdb
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\bin\Debug\Grundforlobsprove.exe
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\bin\Debug\Grundforlobsprove.pdb
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.csprojResolveAssemblyReference.cache
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.Form1.resources
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.Properties.Resources.resources
+C:\Users\xkrk\Documents\GitHub\Grundforlobsprove\Grundforlobsprove\Grundforlobsprove\obj\Debug\Grundforlobsprove.csproj.GenerateResource.Cache

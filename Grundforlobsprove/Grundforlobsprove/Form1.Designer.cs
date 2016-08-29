@@ -28,101 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.ipAd01 = new System.Windows.Forms.TextBox();
+            this.ipAd02 = new System.Windows.Forms.TextBox();
+            this.ipAd03 = new System.Windows.Forms.TextBox();
+            this.ipAd04 = new System.Windows.Forms.TextBox();
+            this.subMa01 = new System.Windows.Forms.TextBox();
+            this.subMa02 = new System.Windows.Forms.TextBox();
+            this.subMa03 = new System.Windows.Forms.TextBox();
+            this.subMa04 = new System.Windows.Forms.TextBox();
+            this.slashNotation = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Calculate = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.netAddShow = new System.Windows.Forms.Label();
+            this.broadAddShow = new System.Windows.Forms.Label();
+            this.subMaskShow = new System.Windows.Forms.Label();
+            this.useAddShow = new System.Windows.Forms.Label();
+            this.Cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // ipAd01
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(25, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.ipAd01.Location = new System.Drawing.Point(13, 13);
+            this.ipAd01.Name = "ipAd01";
+            this.ipAd01.Size = new System.Drawing.Size(25, 20);
+            this.ipAd01.TabIndex = 0;
+            this.ipAd01.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // ipAd02
             // 
-            this.textBox2.Location = new System.Drawing.Point(44, 13);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(25, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.ipAd02.Location = new System.Drawing.Point(44, 13);
+            this.ipAd02.Name = "ipAd02";
+            this.ipAd02.Size = new System.Drawing.Size(25, 20);
+            this.ipAd02.TabIndex = 1;
+            this.ipAd02.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // ipAd03
             // 
-            this.textBox3.Location = new System.Drawing.Point(75, 13);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(25, 20);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.ipAd03.Location = new System.Drawing.Point(75, 13);
+            this.ipAd03.Name = "ipAd03";
+            this.ipAd03.Size = new System.Drawing.Size(25, 20);
+            this.ipAd03.TabIndex = 2;
+            this.ipAd03.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // ipAd04
             // 
-            this.textBox4.Location = new System.Drawing.Point(106, 13);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(25, 20);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.ipAd04.Location = new System.Drawing.Point(106, 13);
+            this.ipAd04.Name = "ipAd04";
+            this.ipAd04.Size = new System.Drawing.Size(25, 20);
+            this.ipAd04.TabIndex = 3;
+            this.ipAd04.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox5
+            // subMa01
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(13, 39);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(25, 20);
-            this.textBox5.TabIndex = 4;
-            this.textBox5.Text = "255";
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.subMa01.Enabled = false;
+            this.subMa01.Location = new System.Drawing.Point(13, 39);
+            this.subMa01.Name = "subMa01";
+            this.subMa01.Size = new System.Drawing.Size(25, 20);
+            this.subMa01.TabIndex = 4;
+            this.subMa01.Text = "255";
             // 
-            // textBox6
+            // subMa02
             // 
-            this.textBox6.Location = new System.Drawing.Point(44, 39);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(25, 20);
-            this.textBox6.TabIndex = 5;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.subMa02.Location = new System.Drawing.Point(44, 39);
+            this.subMa02.Name = "subMa02";
+            this.subMa02.Size = new System.Drawing.Size(25, 20);
+            this.subMa02.TabIndex = 5;
+            this.subMa02.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
-            // textBox7
+            // subMa03
             // 
-            this.textBox7.Location = new System.Drawing.Point(75, 39);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(25, 20);
-            this.textBox7.TabIndex = 6;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.subMa03.Location = new System.Drawing.Point(75, 39);
+            this.subMa03.Name = "subMa03";
+            this.subMa03.Size = new System.Drawing.Size(25, 20);
+            this.subMa03.TabIndex = 6;
+            this.subMa03.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
-            // textBox8
+            // subMa04
             // 
-            this.textBox8.Location = new System.Drawing.Point(106, 39);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(25, 20);
-            this.textBox8.TabIndex = 7;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            this.subMa04.Location = new System.Drawing.Point(106, 39);
+            this.subMa04.Name = "subMa04";
+            this.subMa04.Size = new System.Drawing.Size(25, 20);
+            this.subMa04.TabIndex = 7;
+            this.subMa04.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
-            // textBox9
+            // slashNotation
             // 
-            this.textBox9.Location = new System.Drawing.Point(155, 13);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(25, 20);
-            this.textBox9.TabIndex = 8;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.slashNotation.Location = new System.Drawing.Point(155, 13);
+            this.slashNotation.Name = "slashNotation";
+            this.slashNotation.Size = new System.Drawing.Size(25, 20);
+            this.slashNotation.TabIndex = 8;
+            this.slashNotation.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // label1
             // 
@@ -133,15 +132,15 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "/";
             // 
-            // button1
+            // Calculate
             // 
-            this.button1.Location = new System.Drawing.Point(260, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Calculate.Location = new System.Drawing.Point(260, 12);
+            this.Calculate.Name = "Calculate";
+            this.Calculate.Size = new System.Drawing.Size(75, 23);
+            this.Calculate.TabIndex = 10;
+            this.Calculate.Text = "Calculate";
+            this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // label2
             // 
@@ -179,78 +178,77 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "Useable addresses";
             // 
-            // label6
+            // netAddShow
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(117, 66);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.netAddShow.AutoSize = true;
+            this.netAddShow.Location = new System.Drawing.Point(117, 66);
+            this.netAddShow.Name = "netAddShow";
+            this.netAddShow.Size = new System.Drawing.Size(35, 13);
+            this.netAddShow.TabIndex = 15;
+            this.netAddShow.Text = "label6";
             // 
-            // label7
+            // broadAddShow
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(117, 83);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "label7";
+            this.broadAddShow.AutoSize = true;
+            this.broadAddShow.Location = new System.Drawing.Point(117, 83);
+            this.broadAddShow.Name = "broadAddShow";
+            this.broadAddShow.Size = new System.Drawing.Size(35, 13);
+            this.broadAddShow.TabIndex = 16;
+            this.broadAddShow.Text = "label7";
             // 
-            // label8
+            // subMaskShow
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(117, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "label8";
+            this.subMaskShow.AutoSize = true;
+            this.subMaskShow.Location = new System.Drawing.Point(117, 100);
+            this.subMaskShow.Name = "subMaskShow";
+            this.subMaskShow.Size = new System.Drawing.Size(35, 13);
+            this.subMaskShow.TabIndex = 17;
+            this.subMaskShow.Text = "label8";
             // 
-            // label9
+            // useAddShow
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(117, 117);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "label9";
+            this.useAddShow.AutoSize = true;
+            this.useAddShow.Location = new System.Drawing.Point(117, 117);
+            this.useAddShow.Name = "useAddShow";
+            this.useAddShow.Size = new System.Drawing.Size(35, 13);
+            this.useAddShow.TabIndex = 18;
+            this.useAddShow.Text = "label9";
             // 
-            // button2
+            // Cancel
             // 
-            this.button2.Location = new System.Drawing.Point(260, 41);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Cancel.Location = new System.Drawing.Point(260, 41);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(75, 23);
+            this.Cancel.TabIndex = 19;
+            this.Cancel.Text = "Cancel";
+            this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 262);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.Cancel);
+            this.Controls.Add(this.useAddShow);
+            this.Controls.Add(this.subMaskShow);
+            this.Controls.Add(this.broadAddShow);
+            this.Controls.Add(this.netAddShow);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Calculate);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.slashNotation);
+            this.Controls.Add(this.subMa04);
+            this.Controls.Add(this.subMa03);
+            this.Controls.Add(this.subMa02);
+            this.Controls.Add(this.subMa01);
+            this.Controls.Add(this.ipAd04);
+            this.Controls.Add(this.ipAd03);
+            this.Controls.Add(this.ipAd02);
+            this.Controls.Add(this.ipAd01);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -260,26 +258,26 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox ipAd01;
+        private System.Windows.Forms.TextBox ipAd02;
+        private System.Windows.Forms.TextBox ipAd03;
+        private System.Windows.Forms.TextBox ipAd04;
+        private System.Windows.Forms.TextBox subMa01;
+        private System.Windows.Forms.TextBox subMa02;
+        private System.Windows.Forms.TextBox subMa03;
+        private System.Windows.Forms.TextBox subMa04;
+        private System.Windows.Forms.TextBox slashNotation;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Calculate;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label netAddShow;
+        private System.Windows.Forms.Label broadAddShow;
+        private System.Windows.Forms.Label subMaskShow;
+        private System.Windows.Forms.Label useAddShow;
+        private System.Windows.Forms.Button Cancel;
     }
 }
 
